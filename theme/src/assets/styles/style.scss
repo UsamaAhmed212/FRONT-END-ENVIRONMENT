@@ -1,0 +1,20 @@
+$primary-color: #3498db;
+// spike
+body {
+  font-family: Arial, sans-serif;
+  color: $primary-color;
+  
+  h1 {
+    color: darken($primary-color, 10%);
+  }
+  
+  .button {
+    background-color: $primary-color;
+    padding: 10px;
+    border-radius: 5px;
+    
+    &:hover {
+      background-color: lighten($primary-color, 10%);
+    }
+  }
+}

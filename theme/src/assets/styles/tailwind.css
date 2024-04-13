@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        background-color: darkgrey;
+        border-radius: theme("borderRadius.lg");
+        padding: theme("spacing.6");
+        box-shadow: theme("boxShadow.xl");
+    }
+    .btn-next {
+        background-color: red;
+        border-radius: theme("borderRadius.lg");
+        padding: theme("spacing.6");
+        box-shadow: theme("boxShadow.xl");
+        transition: transform 0.3s ease-in-out;
+    }
+    /* spike */
+    .unused-class {
+        color: seagreen;
+    }
+
+    .btn:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+    }
+}

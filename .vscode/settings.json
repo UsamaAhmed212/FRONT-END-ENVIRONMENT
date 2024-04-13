@@ -1,0 +1,9 @@
+{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true,
+    "cSpell.words": [
+        "gutil",
+        "tailwindcss",
+        "useing"
+    ]
+}
